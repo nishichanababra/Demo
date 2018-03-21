@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Audio demo!"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnStartrecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START RECORDING" />
+
+    <Button
+        android:id="@+id/btnStoprecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP RECORDING"
+       />
+
+    <Button
+        android:id="@+id/btnPlayrecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY RECORDING"
+        />
+
+    <Button
+        android:id="@+id/btnSendrecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND RECORDING" />
+
+</LinearLayout>

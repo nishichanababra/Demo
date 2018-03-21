@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animation Demo</string>
+
+    <string name="transition_string">hello</string>
+</resources>
